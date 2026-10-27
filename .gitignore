@@ -1,0 +1,16 @@
+# Node
+node_modules/
+coverage/
+npm-debug.log*
+
+# Local env files
+.env
+.env.*
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+tfplan
+tfplan.json
+crash.log
